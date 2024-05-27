@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+body{
+  background-image: url(./assets/bg-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.navigation{
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  height: 4rem;
+}
+
+.nav-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-icon{
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1rem;
+}
+
+.nav-box h6{
+  cursor: pointer;
+}
+
+.portrait{
+  background-image: url(./assets/portrait-WB.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 3rem 0;
+  width: 100%;
+  height: 32rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portrait-text{
+  color: #fff;
+  width: 70%;
+  font-size: 1.6rem;
+  margin-left: 2rem;  
+  opacity: 0.8;
+}
+
+.portrait-space{
+  width: 100%;
+}
+
+.title-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicio-element{
+  width: 50%;
+  background-color: #fff;
+  height: 5px;
+}
+
+.servicio-text{
+  margin: 0 1rem;
+  color: #fff;
+}
+
+.services-mosaic{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.service {
+  background-image: url(./assets/card-2-W.png);
+  width: 25rem;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+  position: relative;
+}
+
+.service:hover {
+  transition: 0.5s ease all;
+  transform: scale(1.1);
+  border-radius: 0 0 5rem 5rem;
+}
+
+.iconbox{
+  width: 6rem;
+  height: 6rem;
+}
+
+.service-iconbox {
+  border-radius: 100%;
+  border: 3px solid #fff;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.service:hover .service-iconbox {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  transition: 0.9s ease all;
+}
+
+.icon-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.service-text {
+  font-size: 1rem;
+  opacity: 0;
+  display: none;
+  margin: 5px 0;
+}
+
+.service:hover .service-text {
+  transition: 0.9s ease all;
+  opacity: 1;
+  display: flex;
+}
+
+.alianzas-box{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.alianzas-text{
+  width: 30rem;
+  text-align: center;
+}
+
+.alianzas-icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 3rem 0;
+}
+
+.alianzas-icon-box{
+  width: 20rem;
+  height: 20rem;
+  border: 3px solid #fff;
+  border-radius: 5%;
+  background-color: #ffffff70;
+}
+
+.nosotros-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5rem 0;
+}
+
+.stat-mosaic-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.stat-mosaic{
+  width: 12rem;
+  height: 12rem;
+  border: 1px solid #fff;
+  border-radius: 2%;
+  margin: .5rem;
+  background-image: url(./assets/Mosaic2.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.stat-mosaic-icon{
+  width: 4rem;
+  height: 4rem;
+}
+
+.stat-mosaic-title{
+  font-size: 1rem;
+}
+
+.stat-mosaic-value{
+  font-size: 1.5rem;
+  color: #006eff;
+}
+
+.nosotros-mosaic{
+  width: 30rem;
+  height: 25rem;
+  border: 1px solid #fff;
+  border-radius: 2%;
+  margin: .5rem;
+  background-image: url(./assets/Mosaic2.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nosotros-mosaic-text{
+  font-size: 1.1rem;
+  width: 90%;
+}
+
+.nosotros-mosaic-text span{
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.contacto{
+  color: #fff;
+}
+
+.footer{
+  background-color: #006eff;
+  height: 10rem;
+}
+
