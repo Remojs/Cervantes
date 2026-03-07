@@ -1,8 +1,24 @@
-# React + Vite
+# Estudio Jurídico Cervantes — Sitio Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web institucional para el **Estudio Jurídico Cervantes**, orientado a comunicar los servicios legales ofrecidos, la historia del estudio y los canales de contacto.
 
-Currently, two official plugins are available:
+## Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Brindar una presencia digital profesional que transmita confianza, trayectoria y cercanía, destacando más de 20 años de experiencia en derecho civil, administrativo y familiar.
+
+## Tecnologías
+
+| Tecnología | Rol |
+|---|---|
+| **React 18** | Biblioteca UI principal |
+| **Vite 5** | Bundler y servidor de desarrollo |
+| **Tailwind CSS 4** | Estilos utilitarios |
+| **PostCSS** | Procesamiento de CSS |
+| **ESLint** | Linting y calidad de código |
+
+## Estructura
+
+- `src/App.jsx` — Layout principal y todas las secciones de la página
+- `src/components/Header.jsx` — Navegación responsiva con menú mobile
+- `src/index.css` — Estilos globales y animaciones de scroll reveal
+- `src/assets/` — Imágenes, íconos y recursos gráficos
