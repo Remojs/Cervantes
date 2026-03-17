@@ -423,6 +423,25 @@ const App = () => {
           </div>
         </div>
       </footer>
+
+      {/* Dev credit strip */}
+      <div className="bg-gray-950 border-t border-gray-800 py-4">
+        <a
+          href="https://interaktivesolutions.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2.5 group"
+        >
+          <img
+            src="https://raw.githubusercontent.com/Remojs/Interaktive_QR-Manager/refs/heads/master/frontend/assets/logo.png"
+            alt="Interaktive logo"
+            className="h-2 w-6 opacity-70 group-hover:opacity-100 transition-opacity duration-300"
+          />
+          <span className="text-gray-500 text-xs tracking-widest uppercase group-hover:text-gray-300 transition-colors duration-300">
+            developed by <strong className="text-gray-400 group-hover:text-white transition-colors duration-300 font-semibold">INTERAKTIVE</strong>
+          </span>
+        </a>
+      </div>
     </>
   );
 };
